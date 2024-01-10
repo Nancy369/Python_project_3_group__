@@ -37,4 +37,4 @@ The options are grouped into three major categories based on their relevance， 
 | ------ | ------ |
 | Individual Demographics | Age Category<br>BMI |
 | hronic Diseases and Other Health Issues | Heart Disease<br>Skin Cancer<br>Other Cancer<br>Depression<br>Arthritis<br>diabetes |
-| Lifestyle factors | 单元格4 |
+| Lifestyle factors | checkup<br>exercise<br>smoking history<br>alcohol consumption<br>Fruit Consumption<br>Green vegetables Consumption<br>Fried potato Consumption |
