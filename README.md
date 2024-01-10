@@ -39,5 +39,12 @@ The options are grouped into three major categories based on their relevance， 
 | hronic Diseases and Other Health Issues | Heart Disease<br>Skin Cancer<br>Other Cancer<br>Depression<br>Arthritis<br>diabetes |
 | Lifestyle factors | checkup<br>exercise<br>smoking history<br>alcohol consumption<br>Fruit Consumption<br>Green vegetables Consumption<br>Fried potato Consumption |
 
-We use MinBatchKMeans function. One of the Cluster analysis visualization is below.
+The label is saved.We use MinBatchKMeans function. One of the Cluster analysis visualization is below.
 ![clustering_result_by_gender_health](./cluster_picture/clustering_result_by_gender_health.png)
+
+## Multiple linear regression analysis
+We used **cluster_label_XX.csv** as the input. Firstly, we explored the relationship of three groups to Cardiovascular and Cerebrovascular Impact. And then, we we checked the detail choice of three groups.Some of the pictures are below.
+
+![Coefficients of disease Factors on Female Cardiovascular Diseases Risk Prediction](./results_picture/Coefficients of disease Factors on Female Cardiovascular Diseases Risk Prediction.png)
+
+![Coefficients of disease Factors on Male Cardiovascular Diseases Risk Prediction](./results_picture/Coefficients of disease Factors on Male Cardiovascular Diseases Risk Prediction.png)
