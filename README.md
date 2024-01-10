@@ -47,4 +47,4 @@ We used **cluster_label_XX.csv** as the input. Firstly, we explored the relation
 
 ![Coefficients of disease Factors on Female Cardiovascular Diseases Risk Prediction](./results_picture/Coefficients of disease Factors on Female Cardiovascular Diseases Risk Prediction.png)
 
-![Coefficients of disease Factors on Male Cardiovascular Diseases Risk Prediction](./results_picture/Coefficients of disease Factors on Female Cardiovascular Diseases Risk Prediction.png)
+![Coefficients of disease Factors on Male Cardiovascular Diseases Risk Prediction](./results_picture/Coefficients of disease Factors on Male Cardiovascular Diseases Risk Prediction.png)
