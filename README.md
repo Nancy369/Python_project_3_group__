@@ -23,3 +23,6 @@ Through cluster analysis and Multiple linear regression analysis, we discussed g
 
 ## dataset
 We choose **The Behavioral Risk Factor Surveillance System (BRFSS) dataset** as the data sources. This dataset can be found on [https://www.kaggle.com/datasets/alphiree/cardiovascular-diseases-risk-prediction-dataset]. This dataset encompasses numerous indicators related to health-related risk behaviors, chronic health conditions, and utilization of preventive services.
+
+## the imformation of the dataset
+We use **data_processing.py** to get the 
