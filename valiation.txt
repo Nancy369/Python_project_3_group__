@@ -1,0 +1,97 @@
+健康生活方式：checkup、exercise、Smoking_History、Alcohol_Consumption、
+Fruit_Consumption、Green_Vegetables_Consumption、FriedPotato_Consumption
+
+疾病：Heart_Disease、Skin_Cancer、Other_Cancer、Depression、Arthritis、diabetes
+
+个人基本情况：sex、Age_Category、BMI
+
+按照性别划分，将上述列分别聚类，得出总体健康方式、疾病、个人基本情况的分类排序，再进行主成分分析。
+
+得分赋值：为接下来的聚类做准备
+
+health_mapping = {
+    'Very Good': 5,
+    'Good': 4,
+    'Excellent': 3,
+    'Fair': 2,
+    'Poor': 1
+}
+
+checkup_mapping = {
+    'Within the past year': 5,
+    'Within the past 2 years': 4,
+    'Within the past 5 years': 3,
+    '5 or more years ago': 2,
+    'Never': 1
+}
+
+exercising_mapping = {
+    'No': 0,
+    'Yes': 1
+}
+
+Heart_Disease_mapping = {
+    'No': 1,
+    'Yes': 0
+}
+
+Skin_Cancer_mapping = {
+    'No': 1,
+    'Yes': 0
+}
+
+Other_Cancer_mapping = {
+    'No': 1,
+    'Yes': 0
+}
+
+Depression_mapping = {
+    'No': 1,
+    'Yes': 0
+}
+
+Diabetes_mapping = {
+    'No': 1,
+    'Yes': 0
+}
+
+Arthritis_mapping = {
+    'No': 1,
+    'Yes': 0,
+    'No, pre-diabetes or borderline diabetes': 0.5,
+    'Yes, but female told only during pregnancy': 0
+}
+
+Sex_mapping = {
+    'Female': 1,
+    'Male': 0
+}
+
+Age_Category_mapping = {
+    '65-69': 0,
+    '60-64': 0,
+    '70-74': 0,
+    '55-59': 1,
+    '50-54': 1,
+    '80+'  : 0,
+    '40-44': 1,
+    '45-49': 1,
+    '75-79': 0,
+    '35-39': 2,
+    '18-24': 2,
+    '30-34': 2,
+    '25-29': 2
+}
+
+BMI_mapping = {
+    data['BMI'] > 24: 0,
+    data['BMI'] < 18.5: 1,
+    (data['BMI'] >= 18.5) & (data['BMI'] <= 24): 2
+}
+
+Smoking_History_mapping = {
+    'No': 1,
+    'Yes': 0
+}
+
+
