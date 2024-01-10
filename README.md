@@ -31,4 +31,10 @@ We use **data_processing.py** to get the information of the BRFSS dataset. The r
 We assign scores to each option for ease of subsequent calculation, the score is higher,that means the choice is healthier for the people.The score detail is saved in valiation.
 
 ## Cluster Analysis
+The options are grouped into three major categories based on their relevance， which included **Individual Demographics, Chronic Diseases and Other Health Issues,Lifestyle factors**.The detail is below.
 
+| Group | Include |
+| ------ | ------ |
+| Individual Demographics | Age Category<br>BMI |
+| hronic Diseases and Other Health Issues | Heart Disease<br>Skin Cancer<br>Other Cancer<br>Depression<br>Arthritis<br>diabetes |
+| Lifestyle factors | 单元格4 |
