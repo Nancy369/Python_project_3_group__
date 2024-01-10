@@ -45,6 +45,6 @@ The label is saved.We use MinBatchKMeans function. One of the Cluster analysis v
 ## Multiple linear regression analysis
 We used **cluster_label_XX.csv** as the input. Firstly, we explored the relationship of three groups to Cardiovascular and Cerebrovascular Impact. And then, we we checked the detail choice of three groups.Some of the pictures are below.
 
-![Coefficients of disease Factors on Female Cardiovascular Diseases Risk Prediction](./results_picture/Coefficients of disease Factors on Female Cardiovascular Diseases Risk Prediction.png)
+![clustering_result_by_gender_health](./cluster_picture/clustering_result_by_gender_health.png)
 
-![Coefficients of disease Factors on Male Cardiovascular Diseases Risk Prediction](./results_picture/Coefficients of disease Factors on Male Cardiovascular Diseases Risk Prediction.png)
+![clustering_result_by_gender_health](./cluster_picture/clustering_result_by_gender_health.png)
